@@ -1,7 +1,24 @@
-#app {
-    margin: auto;
-    width: 920px;
-    display: flex;
-    justify-content: center;
+/* Mobile */
+
+@media screen and (min-width: 200px) {
+    .body{
+        background: url("http://wallpapersexpert.com/data/out/31/3550904-dc-comics-wallpapers.jpg") center no-repeat;
+        
+        
+    }
+    .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }
+    .app-iphone {
+        display: none;
+    }
+
+    .app-jla {
+        width: 270px;
+    }
+
 }
 
