@@ -1,0 +1,7 @@
+#app {
+    margin: auto;
+    width: 920px;
+    display: flex;
+    justify-content: center;
+}
+
