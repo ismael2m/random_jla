@@ -1,4 +1,4 @@
-
+import jla from './datas/jla.js'
 const app = {
     init : () => {
         app.start();
