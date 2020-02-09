@@ -19,7 +19,7 @@ const jla = [
     },
     {
         id:4,
-        name: 'Wonder Woman',
+        name: 'Wonder-Woman',
         bio:'',
         powers:['Déesse', 'Force surhumaine', 'Vol'],
     },
@@ -31,13 +31,13 @@ const jla = [
     },
     {
         id: 6,
-        name: 'Green Lantern',
+        name: 'Green-Lantern',
         bio:'https://fr.wikipedia.org/wiki/Hal_Jordan',
         powers:['Anneau des green lanterns', 'capacité à matérialiser toutes ses pensées'],
     },
     {
         id: 7,
-        name: 'Martian ManHunter',
+        name: 'Martian-Manhunter',
         bio:'https://fr.wikipedia.org/wiki/J%27onn_J%27onzz',
         powers:['Vol', 'Super force', 'Rapidité', 'Endurance', 'Vision martienne', 'Télépathe', 'Métamorphe'],
     },
