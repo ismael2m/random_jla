@@ -39,7 +39,7 @@
         color: white;
     }
 
-    .app-button {
+    .app-button-play {
         width: 80%;
         margin-top: 100px;
         padding: 10px 20px;
@@ -49,6 +49,10 @@
         color: white;
         font-weight: bold;
         transition: 0.2s;
+    }
+
+    .app-button-none {
+        display: none;
     }
 
     .app-button:hover {
