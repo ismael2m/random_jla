@@ -28,13 +28,27 @@ const app = {
             setTimeout(()=>{
                 clearInterval(i)
                 console.log('stop');
+                
                 appRoot[0].appendChild(heroName)
                 playBtn.innerHTML = 'Rejouer';
-            }, 3000);
 
-           
+                setTimeout(() => {
+                    const jlaHero = jla.filter((hero) => {
+                        return hero.name === heroName.innerText;
+                    })
+                    
+                    jlaHero[0].powers.map((power)=>{
+                        const powers = document.createElement('p');
+                        powers.classList.add('text-white');
+                        powers.innerHTML = power;
+                        appRoot[0].appendChild(powers)
+                    })
+                    ;
+                }, 1000);
+
+            }, 3000);       
         }
-
+        // Déclenchement de la fonction random
         playBtn.addEventListener('click', random)
     }
 }
