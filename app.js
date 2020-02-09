@@ -2,7 +2,13 @@ import jla from './datas/jla.js';
 
 const app = {
     init : () => {
+        app.domElement();
         app.start();
+        
+    },
+
+    domElement : () => {
+        console.log('DOM construit')
     },
 
     start : () => {
@@ -36,7 +42,7 @@ const app = {
                     const jlaHero = jla.filter((hero) => {
                         return hero.name === heroName.innerText;
                     })
-                    
+
                     jlaHero[0].powers.map((power)=>{
                         const powers = document.createElement('p');
                         powers.classList.add('text-white');
