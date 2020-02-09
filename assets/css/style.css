@@ -55,10 +55,18 @@
         display: none;
     }
 
-    .app-button:hover {
+    .app-button-play:hover {
         color: rgb(48, 48, 48);
         background-color: white;
         border: solid 2px white;
+    }
+
+    .app-list {
+        color:white;
+        list-style: none;
+        text-align: center;
+        
+        padding:0
     }
 }
 
