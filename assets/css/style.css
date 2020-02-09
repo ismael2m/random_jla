@@ -1,23 +1,48 @@
 /* Mobile */
 
 @media screen and (min-width: 200px) {
+
     .body{
-        background: url("http://wallpapersexpert.com/data/out/31/3550904-dc-comics-wallpapers.jpg") center no-repeat;
-        
-        
+        background: url('../img/jla-bg-2-bw.jpg') center no-repeat;
+        background-size: cover; 
+        min-height: 100vh; 
     }
+
     .app {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        height: 100vh;
+        align-items: center;  
     }
+
+    .app-title {
+        color: white;
+        text-align: center;
+    }
+
     .app-iphone {
         display: none;
     }
 
     .app-jla {
         width: 270px;
+        border-radius: 6%;
+        box-shadow: black -5px 5px 10px;
+    }
+
+    .app-hero {
+        color: white;
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .app-powers {
+        color: white;
+    }
+
+    .app-button {
+        width: 80%;
+        margin-top: 50px;
+       
     }
 
 }
