@@ -18,6 +18,8 @@
     .app-title {
         color: white;
         text-align: center;
+        width: 70%;
+        margin-bottom: 1rem;
     }
 
     .app-iphone {
@@ -101,8 +103,6 @@
 
     .app-title {
         font-size: 1.5rem;
-        text-align: center;
-        width: 70%;
     }
 
     .app-jla {
