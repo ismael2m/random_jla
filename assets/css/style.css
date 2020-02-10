@@ -7,7 +7,6 @@
         background-size: cover; 
         min-height: 100vh;
         position: relative;
-         
     }
 
     .app {
@@ -19,8 +18,6 @@
     .app-title {
         color: white;
         text-align: center;
-        background-color: red;
-
     }
 
     .app-iphone {
@@ -36,9 +33,7 @@
     .app-hero {
         color: white;
         margin-top: 2rem;
-        font-size: 2rem;
-        background-color: green;
-        
+        font-size: 2rem;      
     }
 
     .app-powers {
@@ -73,7 +68,59 @@
         color:white;
         list-style: none;
         text-align: center;
-        padding:0
+        padding: 1.5rem 0 0;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .body{
+        background: none;
+        background: linear-gradient( #FFFFFF,#ECE9E6);
+        padding-top: 50px;
+    }
+
+    .app {
+        background: url('../img/jla-bg-2-bw.jpg') center no-repeat;
+        background-size: cover;
+        height: 750px;
+        width: 350px;
+        margin: 0 auto;
+        padding-top: 80px;
+        border-radius: 50px;
+        position: relative;
+    }
+
+    .app-iphone {
+        display: block;
+        width: 390px;
+        position: absolute;
+        top: -10px
+    }
+
+    .app-title {
+        font-size: 1.5rem;
+        text-align: center;
+        width: 70%;
+    }
+
+    .app-jla {
+        width: 150px;
+        margin-top: 15px;
+    }
+
+    .app-hero {
+        font-size: 1.7rem;
+    }
+
+    .app-list {
+        font-size: .95rem;
+    }
+
+    .app-button-play {
+        bottom: 50px;
+        width: 120px;
     }
 }
 
