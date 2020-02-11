@@ -1,7 +1,126 @@
-#app {
-    margin: auto;
-    width: 920px;
-    display: flex;
-    justify-content: center;
+/* Mobile */
+
+@media screen and (min-width: 200px) {
+
+    .body{
+        background: url('../img/jla-bg-2-bw.jpg') center no-repeat;
+        background-size: cover; 
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .app-title {
+        color: white;
+        text-align: center;
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+
+    .app-iphone {
+        display: none;
+    }
+
+    .app-jla {
+        width: 200px;
+        border-radius: 6%;
+        box-shadow: black -5px 5px 10px;
+    }
+
+    .app-hero {
+        color: white;
+        margin-top: 2rem;
+        font-size: 2rem;      
+    }
+
+    .app-powers {
+        color: white;
+        font-weight: bold;
+    }
+
+    .app-button-play {
+        position: absolute;
+        width: 80%;
+        bottom: 1rem;
+        padding: 10px 20px;
+        border: solid 2px white;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .app-button-none {
+        display: none;
+    }
+
+    .app-button-play:hover {
+        color: rgb(48, 48, 48);
+        background-color: white;
+        border: solid 2px white;
+    }
+
+    .app-list {
+        color:white;
+        list-style: none;
+        text-align: center;
+        padding: 1.5rem 0 0;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .body{
+        background: none;
+        background: linear-gradient( #FFFFFF,#ECE9E6);
+        padding-top: 50px;
+    }
+
+    .app {
+        background: url('../img/jla-bg-2-bw.jpg') center no-repeat;
+        background-size: cover;
+        height: 750px;
+        width: 350px;
+        margin: 0 auto;
+        padding-top: 80px;
+        border-radius: 50px;
+        position: relative;
+    }
+
+    .app-iphone {
+        display: block;
+        width: 390px;
+        position: absolute;
+        top: -10px
+    }
+
+    .app-title {
+        font-size: 1.5rem;
+    }
+
+    .app-jla {
+        width: 150px;
+        margin-top: 15px;
+    }
+
+    .app-hero {
+        font-size: 1.7rem;
+    }
+
+    .app-list {
+        font-size: .95rem;
+    }
+
+    .app-button-play {
+        bottom: 50px;
+        width: 120px;
+    }
 }
 
