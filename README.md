@@ -5,3 +5,9 @@
 Comme sur le filtre instagram, l'utilisateur clique sur le bouton **Jouer** afin de découvrir le personnage qu'il est dans la célèbre équipe de super-héros DC, la **Justice League of America.**
 
 
+<div align="center">
+    <br>
+    <img src="assets/img/jla_app.gif">
+</div>
+
+
