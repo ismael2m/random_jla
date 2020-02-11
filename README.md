@@ -4,7 +4,7 @@
 
 Comme sur le filtre instagram, l'utilisateur clique sur le bouton **Jouer** afin de découvrir le personnage qu'il est dans la célèbre équipe de super-héros DC, la **Justice League of America.**
 
-Technologies utilisées : **html** **css** **js vanilla** **bootstrap**
+Technologies utilisées : **HTML** **CSS** **JS(vanilla)** **Bootstrap**
 
 
 <div align="center">
