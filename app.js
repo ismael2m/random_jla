@@ -14,7 +14,24 @@ const app = {
     init : () => {
         app.domElement();
         app.start();
+        app.preloader();
     },
+
+    preloader: () => {
+        
+        // Compteur
+        var i = 0;
+   
+        // Créer l'objet
+        var imageObj1 = new Image();
+        var imageObj2 = new Image();
+   
+
+      imageObj1.src="assets/img/Aquaman.jpg";
+      imageObj2.src="assets/img/Flash.jpg";
+        
+   
+},
 
     // Méthode qui créé les éléments du DOM qui seront utilisés
     domElement : () => {
