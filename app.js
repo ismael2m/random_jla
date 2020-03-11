@@ -12,9 +12,10 @@ const heroImgDom =  document.getElementsByClassName('app-jla');
 const app = {
     // Fonction lancée au chargement du DOM
     init : () => {
+        app.preloader();
         app.domElement();
         app.start();
-        app.preloader();
+        
     },
 
     // Fonction de préchargement des images
