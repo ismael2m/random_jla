@@ -45,8 +45,8 @@
 
     .app-button-play {
         position: absolute;
-        width: 80%;
-        bottom: 1rem;
+        width: 40%;
+        bottom: 4rem;
         padding: 10px 20px;
         border: solid 2px white;
         border-radius: 10px;
