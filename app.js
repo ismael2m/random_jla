@@ -54,7 +54,7 @@ const app = {
                 heroImgDom[0].src = `assets/img/${jla[index].name}.jpg`;
                 heroNameDom[0].innerHTML = jla[index].name;
                 heroNameDom[0].classList.add('app-hero');
-            }, 80);
+            }, 200);
 
             // On stoppe le setInterval (ligne 73)
             app.stopRandom(j);
