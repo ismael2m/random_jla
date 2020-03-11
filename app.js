@@ -17,18 +17,23 @@ const app = {
         app.preloader();
     },
 
+    // Fonction de préchargement des images
     preloader: () => {
-        
-        // Compteur
-        var i = 0;
-   
-        // Créer l'objet
-        var imageObj1 = new Image();
-        var imageObj2 = new Image();
-   
+    const arrayImg = [
+        "assets/img/Flash.jpg",
+        "assets/img/Aquaman.jpg",
+        "assets/img/Batman.jpg",
+        "assets/img/Superman.jpg",
+        "assets/img/Martian-Manhunter.jpg",
+        "assets/img/Cyborg.jpg",
+        "assets/img/Wonder-Woman.jpg",
+        "assets/img/Green-Lantern.jpg"
+    ]
 
-      imageObj1.src="assets/img/Aquaman.jpg";
-      imageObj2.src="assets/img/Flash.jpg";
+    arrayImg.map((hero)=>{
+        const imageObj = new Image();
+        return imageObj.src= hero;
+    })
         
    
 },
