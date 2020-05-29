@@ -47,7 +47,7 @@ export default [
             bio:'https://fr.wikipedia.org/wiki/Cyborg_(comics)',
             powers:['Force', 'Résistance et intelligence surhumaine', 'Sens ultra développés (scanner)'],
         }
-    ]
+]
 
 
 

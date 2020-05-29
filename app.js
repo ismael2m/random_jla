@@ -27,9 +27,7 @@ const app = {
         // Création d'un [] qui stocke les différents éléments à injecter dans la <div class="app">
         // Itération avec map() : chaque élément est injecté dans la <div class="app">
         const arrayElmt = [heroName, powersList, playBtn, replayBtn];
-        arrayElmt.map((elmt) => {
-            appRoot[0].appendChild(elmt);
-        });
+        arrayElmt.map((elmt) => appRoot[0].appendChild(elmt));
 
         // Ajout de classes et de textes aux boutons
         playBtn.classList.add('app-button-play','btn-1');

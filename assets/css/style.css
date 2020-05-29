@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 200px) {
 
-    .body{
+    .body {
         background: url('../img/jla-bg-2-bw.jpg') center no-repeat;
         background-size: cover; 
         min-height: 100vh;
@@ -77,7 +77,7 @@
 
 @media screen and (min-width: 768px) {
 
-    .body{
+    .body {
         background: none;
         background: linear-gradient( #FFFFFF,#ECE9E6);
         padding-top: 50px;
