@@ -12,9 +12,32 @@ const heroImgDom =  document.getElementsByClassName('app-jla');
 const app = {
     // Fonction lancée au chargement du DOM
     init : () => {
+        app.preloader();
         app.domElement();
         app.start();
+        
     },
+
+    // Fonction de préchargement des images
+    preloader: () => {
+    const arrayImg = [
+        "assets/img/Flash.jpg",
+        "assets/img/Aquaman.jpg",
+        "assets/img/Batman.jpg",
+        "assets/img/Superman.jpg",
+        "assets/img/Martian-Manhunter.jpg",
+        "assets/img/Cyborg.jpg",
+        "assets/img/Wonder-Woman.jpg",
+        "assets/img/Green-Lantern.jpg"
+    ]
+
+    arrayImg.map((hero)=>{
+        const imageObj = new Image();
+        return imageObj.src= hero;
+    })
+        
+   
+},
 
     // Méthode qui créé les éléments du DOM qui seront utilisés
     domElement : () => {

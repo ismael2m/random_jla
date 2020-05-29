@@ -7,12 +7,13 @@
         background-size: cover; 
         min-height: 100vh;
         position: relative;
+        font-family: sans-serif;
     }
 
     .app {
         display: flex;
         flex-direction: column;
-        align-items: center;   
+        align-items: center;  
     }
 
     .app-title {
@@ -45,8 +46,8 @@
 
     .app-button-play {
         position: absolute;
-        width: 80%;
-        bottom: 1rem;
+        width: 40%;
+        bottom: 4rem;
         padding: 10px 20px;
         border: solid 2px white;
         border-radius: 10px;
@@ -73,32 +74,37 @@
         padding: 1.5rem 0 0;
         width: 60%;
     }
+
+    .repo-link {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
 
     .body {
         background: none;
-        background: linear-gradient( #FFFFFF,#ECE9E6);
+        background-color: #525564;
         padding-top: 50px;
     }
 
     .app {
         background: url('../img/jla-bg-2-bw.jpg') center no-repeat;
         background-size: cover;
-        height: 750px;
+        height: 650px;
         width: 350px;
         margin: 0 auto;
         padding-top: 80px;
         border-radius: 50px;
         position: relative;
+        zoom:80%; 
     }
 
     .app-iphone {
         display: block;
         width: 390px;
         position: absolute;
-        top: -10px
+        top: -10px;
     }
 
     .app-title {
@@ -121,6 +127,27 @@
     .app-button-play {
         bottom: 50px;
         width: 120px;
+    }
+
+    .repo-link {
+        font-family: sans-serif;
+        font-weight: 600;
+        display: block;
+        text-align: center;
+        width: 180px;
+        margin: 2rem auto ;
+        background: white;
+        color: rgb(0, 110, 255);
+        padding: .5rem 2rem;
+        border-radius: 100px;
+        border: none;
+        text-decoration: none;
+        text-decoration: none;
+        transition: .2s ease;
+    }
+
+    .repo-link:hover {
+        text-decoration: none;
     }
 }
 
