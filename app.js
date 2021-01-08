@@ -14,8 +14,7 @@ const app = {
     init : () => {
         app.preloader();
         app.domElement();
-        app.start();
-        
+        app.start();  
     },
 
     // Fonction de préchargement des images
@@ -34,9 +33,7 @@ const app = {
     arrayImg.map((hero)=>{
         const imageObj = new Image();
         return imageObj.src= hero;
-    })
-        
-   
+    })  
 },
 
     // Méthode qui créé les éléments du DOM qui seront utilisés
