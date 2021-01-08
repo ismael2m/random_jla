@@ -56,7 +56,6 @@ const app = {
         playBtn.innerHTML = 'Jouer'; 
     },
 
-
     // Méthode principal qui gère toute la logique
     start : () => {
         //Fonction tirage au sort random();
@@ -88,7 +87,6 @@ const app = {
 
             // Voir ligne
             app.disabledReplayBtn();
-
         });
     },
 
